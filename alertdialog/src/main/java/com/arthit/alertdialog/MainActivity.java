@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 setNegativeButton("cencel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Log.e("arthit","cencel22");
+                        Log.e("arthit","cencel");
                     }
                 }).
                 setNeutralButton("mid", new DialogInterface.OnClickListener() {
