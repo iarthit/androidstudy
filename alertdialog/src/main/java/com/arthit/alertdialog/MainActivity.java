@@ -1,13 +1,12 @@
 package com.arthit.alertdialog;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,19 +24,19 @@ public class MainActivity extends AppCompatActivity {
                 .setPositiveButton("sure", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Log.e("arthit","sure");
+                        Log.e("arthit", "sure");
                     }
                 }).
                 setNegativeButton("cencel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Log.e("arthit","cencel");
+                        Log.e("arthit", "cencel");
                     }
                 }).
                 setNeutralButton("mid", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Log.e("arthit","mid");
+                        Log.e("arthit", "mid");
                     }
                 })
                 .create().show();
